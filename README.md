@@ -1,2 +1,2 @@
-# hello-world
-파이썬 text
+# python tutorial
+python tutorial
