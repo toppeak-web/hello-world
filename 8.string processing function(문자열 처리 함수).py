@@ -11,3 +11,11 @@ print(index)
 
 index = py.index("n", index + 1)
 print(index)
+
+print(py.find("n"))
+
+print(py.find("J")) #값이 없으면 -1로 반환
+#print(py.index("J")) #값이 없으면 오류
+print("hi")
+
+print(py.count("n")) #n이 나온수
