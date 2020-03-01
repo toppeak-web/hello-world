@@ -6,6 +6,13 @@
 #                     (nav)             (5)           (1)        (!)
 # 예) 생성된 비밀번호 : nav51
 
-site = "http://naver.com"
-my_str = site.replace("http://","")
+# site = "http://naver.com"
+site = "https://www.youtube.com/watch?v=kWiCuklohdY&list=LLEIKy0pZjUsDJE4L1ob3d1w&index=3&t=1230s"
+my_str = site.replace("http://","") 
+my_str = site.replace("https://","") 
 print(my_str)
+my_str = my_str[:my_str.index(".")] #my_str[0:5] 0 ~ 5 직전까지. (0)
+print(my_str)
+
+pw = my_str[0:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
+print("{0} 의 비밀번호는 {1} 입니다.".format(site, pw))
