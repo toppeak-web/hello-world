@@ -14,5 +14,5 @@ print(my_str)
 my_str = my_str[:my_str.index(".")] #my_str[0:5] 0 ~ 5 직전까지. (0)
 print(my_str)
 
-pw = my_str[0:3] + str(len(my_str)) + str(my_str.count("e")) + "!"
+pw = my_str[0:3] + str(len(my_sr)t) + str(my_str.count("e")) + "!"
 print("{0} 의 비밀번호는 {1} 입니다.".format(site, pw))
